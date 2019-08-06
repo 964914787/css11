@@ -1,0 +1,60 @@
+@charset"utf-8";
+html{
+  height: 100%;
+  font-size: 62.5%
+}
+boby {
+  background: #eff0f4;
+  width: 100%;
+}
+$header-color: #fff;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  $height: 4.4rem;
+  height: $height;
+  color: $header-color;
+  background: #5fc0cd;
+
+  .header-word {
+    font-size: 1.6rem;
+    margin: 1.5rem;
+  }
+
+  .header-box {
+    font-size: 1.8rem
+  }
+}
+.input-box {
+  display: flex;
+  align-items: center;
+  height: 5rem;
+  background: white;
+  margin: 0.8rem 0 0 0 ;
+
+  .bg-iphone {
+    margin: 1.5rem 2.3rem
+}
+    .input-bg {
+      margin: 0 0 0 1.5rem;
+      border: none;
+      outline:none;
+    }
+}
+.land-box {
+  height: 5rem;
+  width: 100%;
+  background: #5fc0cd;
+  color: #fff;
+  font-size: 1.8rem;
+  margin: 3.4rem 0 0 0;
+  border: 1px solid transparent;  //自定义边框
+  outline: none;
+}
+footer {
+  display: flex;
+  justify-content: flex-end;
+  margin: 1rem;
+  color: #5fc0cd;
+}
